@@ -4,6 +4,7 @@ import React from 'react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
+import Info from './Pages/Info/Info';
 const App = () => {
     const particlesInit = useCallback(async (engine) => {
         console.log(engine);
@@ -73,7 +74,7 @@ const App = () => {
                             default: "bounce",
                         },
                         random: false,
-                        speed: 2,
+                        speed: 1,
                         straight: false,
                     },
                     number: {
@@ -96,6 +97,7 @@ const App = () => {
                 detectRetina: true,
             }}
         />
+        <Info></Info>
 
         </div>
     );
