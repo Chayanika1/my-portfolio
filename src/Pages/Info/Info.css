@@ -1,3 +1,16 @@
-h1{
+#my{
     background-color: white;
+    
+    margin-top: 90PX;
+    position: relative;
+}
+.mine{
+    height:380px;
+    
+   
+   
+}
+#desc h1{
+    margin-top: 60px;
+
 }

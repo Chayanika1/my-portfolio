@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './Pages/About/About';
 import Info from './Pages/Info/Info';
 import Navbar from './Pages/Navbar/Navbar';
 import Particle from './Pages/Particle';
@@ -10,6 +11,7 @@ const App = () => {
         <Particle />
         
         <Info></Info>
+        <About></About>
             
         </div>
     );
