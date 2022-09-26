@@ -1,0 +1,6 @@
+@Media only screen and (max-width:688px){
+    #hello{
+        display: flex;
+        
+    }
+}
